@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/ml-ops-410709/testing', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/ml-ops-410709/testing'] 
+  args: ['push', 'gcr.io/ml-ops-410709/testing']  
