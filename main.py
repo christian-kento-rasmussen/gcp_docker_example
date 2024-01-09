@@ -1,9 +1,8 @@
-from sklearn import datasets, svm, metrics
+from sklearn import datasets, metrics, svm
 from sklearn.model_selection import train_test_split
 
-
 if __name__ == '__main__':
-    digits = datasets.load_digits()
+    digits = datasets.load_digits() 
 
     # flatten the images
     n_samples = len(digits.images)
